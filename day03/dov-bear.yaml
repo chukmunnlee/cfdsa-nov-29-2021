@@ -45,6 +45,9 @@ metadata:
    name: dov-ing
    labels:
       name: dov-ing
+   annotations:
+      nginx.ingress.kubernetes.io/limit-rps: "5"
+      nginx.ingress.kubernetes.io/enable-cors: "true"
 spec:
    ingressClassName: nginx
    defaultBackend:
