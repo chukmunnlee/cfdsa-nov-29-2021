@@ -16,7 +16,7 @@ spec:
         app: dov-pod
     spec:
       containers:
-      - image: stackupiss/dov-bear:v1
+      - image: stackupiss/dov-bear:latest
         name: dov-bear
         ports:
         - containerPort: 3000

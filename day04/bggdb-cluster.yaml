@@ -7,8 +7,8 @@ metadata:
       name: nwdb-secret
 type: Opaque
 data:
+   MYSQL_ROOT_PASSWORD: Y2hhbmdlaXQ=
    ROOT_PASSWORD: Y2hhbmdlaXQ=
-
 ---
 apiVersion: mysql.presslabs.org/v1alpha1
 kind: MysqlCluster
